@@ -1,38 +1,60 @@
 # REQUIRED CONFIG
-BOT_TOKEN = ""
-OWNER_ID = 0
-TELEGRAM_API = 0
-TELEGRAM_HASH = ""
-DATABASE_URL = ""
+BOT_TOKEN = "7972269733:AAFiEWbX9Ttl4SbbnstiD4r6PwS9dn-YjS0" # Enter your telegram bot token
+OWNER_ID = 6200648859 # Enter your telegram user id
+TELEGRAM_API = 3975570 # Enter telegram API key
+TELEGRAM_HASH = "680b62f2844aa1954216f6cb99d2f3d9" # Enter telegram API hash
+
+# SEMI-REQUIRED, WE SUGGEST TO FILL IT FROM MONGODB
+DATABASE_URL = "mongodb+srv://hunter123:hunter123@cluster0.iueac.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # OPTIONAL CONFIG
-DEFAULT_LANG = "en"
-TG_PROXY = (
-    {}
-)  # {"scheme": ”socks5”, "hostname": ””, "port": 1234, "username": ”user”, "password": ”pass”}
+TG_PROXY = {}
 USER_SESSION_STRING = ""
+DOWNLOAD_DIR = "/usr/src/app/downloads/"
 CMD_SUFFIX = ""
-AUTHORIZED_CHATS = ""
-SUDO_USERS = ""
-STATUS_LIMIT = 10
+AUTHORIZED_CHATS = "-1002383407476"
+SUDO_USERS = 5623055023, 6200648859
 DEFAULT_UPLOAD = "rc"
-STATUS_UPDATE_INTERVAL = 15
 FILELION_API = ""
 STREAMWISH_API = ""
 EXCLUDED_EXTENSIONS = ""
 INCOMPLETE_TASK_NOTIFIER = False
 YT_DLP_OPTIONS = ""
 USE_SERVICE_ACCOUNTS = False
-NAME_SWAP = ""
+NAME_SUBSTITUTE = ""
 FFMPEG_CMDS = {}
 UPLOAD_PATHS = {}
 
-# Hyper Tg Downloader
-HELPER_TOKENS = ""
+# INKYPINKY
+DELETE_LINKS = False
+FSUB_IDS = ""
+TOKEN_TIMEOUT = 0
+PAID_CHANNEL_ID = 0
+PAID_CHANNEL_LINK = ""
+SET_COMMANDS = True
+METADATA_KEY = ""
+WATERMARK_KEY = ""
+LOG_CHAT_ID = 0
+LEECH_FILENAME_CAPTION = ""
+HYDRA_IP = ""
+HYDRA_API_KEY = ""
+INSTADL_API = ""
 
-# MegaAPI v4.30
-MEGA_EMAIL = ""
-MEGA_PASSWORD = ""
+# GDrive Tools
+GDRIVE_ID = "1-UhbfAlDYGulzPi6UlpVT7pVaZzAutGs"
+IS_TEAM_DRIVE = False
+STOP_DUPLICATE = False
+INDEX_URL = "https://tghthingleech.theghosthunter-tg1.workers.dev/0:"
+
+# Rclone
+RCLONE_PATH = ""
+RCLONE_FLAGS = ""
+RCLONE_SERVE_URL = ""
+RCLONE_SERVE_PORT = 0
+RCLONE_SERVE_USER = ""
+RCLONE_SERVE_PASS = ""
+
+# Mega credentials
 
 # Task Limits 
 DIRECT_LIMIT = 0
